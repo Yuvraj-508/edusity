@@ -29,7 +29,7 @@ function Navbar() {
         <li className='my-1 mx-5 text-[16px] inline-block list-none '><Link to="about" smooth={true} offset={-260} duration={500}>About us</Link></li>
         <li className='my-1 mx-5 text-[16px]  inline-block list-none'><Link to="campus" smooth={true} offset={-260} duration={500}>Campus</Link></li>
         <li className='my-1 mx-5 text-[16px]  inline-block list-none'><Link to="testimonails" smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
-        <li className='my-1 mx-5 text-[16px]  inline-block list-none'><Link to="contact" smooth={true} offset={-260} duration={500}><button className='bg-white text-[#212121] text-[16px] py-3 px-5 rounded-4xl cursor-pointer border-0 outline-0'>Contact uss</button></Link></li>
+        <li className='my-1 mx-5 text-[16px]  inline-block list-none'><Link to="contact" smooth={true} offset={-260} duration={500}><button className='bg-white text-[#212121] text-[16px] py-3 px-5 rounded-4xl cursor-pointer border-0 outline-0'>Contact us</button></Link></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />
     </nav>
