@@ -1,0 +1,18 @@
+.program:hover .caption{
+    opacity:1;
+    padding-top: 0;
+}
+.caption{
+    padding-top: 70%;
+    transition: 0.4s;
+}
+
+@media(max-width:640px){
+.programs{
+    flex-direction: column;
+}
+.program{
+    flex-basis: 100%;
+    margin:20px ;
+}
+}
